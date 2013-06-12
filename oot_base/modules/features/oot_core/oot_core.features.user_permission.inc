@@ -33,6 +33,7 @@ function oot_core_user_default_permissions() {
     'name' => 'create confirmed reservations',
     'roles' => array(
       'administrator' => 'administrator',
+      'site editor' => 'site editor',
     ),
     'module' => 'merci',
   );
@@ -52,6 +53,7 @@ function oot_core_user_default_permissions() {
     'name' => 'create reservations',
     'roles' => array(
       'administrator' => 'administrator',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'merci',
   );
@@ -61,6 +63,7 @@ function oot_core_user_default_permissions() {
     'name' => 'create reservations outside hours of operation',
     'roles' => array(
       'administrator' => 'administrator',
+      'site editor' => 'site editor',
     ),
     'module' => 'merci',
   );
@@ -144,6 +147,7 @@ function oot_core_user_default_permissions() {
     'name' => 'delete own table_for_2 content',
     'roles' => array(
       'administrator' => 'administrator',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'node',
   );
@@ -153,6 +157,7 @@ function oot_core_user_default_permissions() {
     'name' => 'delete own table_for_4 content',
     'roles' => array(
       'administrator' => 'administrator',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'node',
   );
@@ -218,6 +223,7 @@ function oot_core_user_default_permissions() {
     'name' => 'edit own table_for_2 content',
     'roles' => array(
       'administrator' => 'administrator',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'node',
   );
@@ -227,6 +233,7 @@ function oot_core_user_default_permissions() {
     'name' => 'edit own table_for_4 content',
     'roles' => array(
       'administrator' => 'administrator',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'node',
   );
@@ -236,6 +243,7 @@ function oot_core_user_default_permissions() {
     'name' => 'manage reservations',
     'roles' => array(
       'administrator' => 'administrator',
+      'site editor' => 'site editor',
     ),
     'module' => 'merci',
   );
@@ -263,6 +271,7 @@ function oot_core_user_default_permissions() {
     'name' => 'view all reservations',
     'roles' => array(
       'administrator' => 'administrator',
+      'site editor' => 'site editor',
     ),
     'module' => 'merci',
   );
