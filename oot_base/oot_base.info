@@ -45,6 +45,7 @@ dependencies[] = wysiwyg
 
 ; Features
 dependencies[] = os_base
+dependencies[] = oot_core
 
 ;
 ; Users
