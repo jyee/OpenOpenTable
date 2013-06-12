@@ -1,4 +1,4 @@
-name = PROJECT Demo Content
+name = OpenOpenTable Demo Content
 core = 7.x
 package = Features
 dependencies[] = ctools

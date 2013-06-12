@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the OpenOpenTable Demo Content feature.
+ */
+
+include_once 'oot_base_demo_content.features.inc';
