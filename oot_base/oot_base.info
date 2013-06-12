@@ -56,20 +56,20 @@ users[admin][mail] = admin@oot_base.example.com
 users[admin][status] = 1
 users[admin][data][overlay] = 0
 
-users[admin][uid] = 2
-users[admin][name] = guest1
-users[admin][mail] = guest1@oot_base.example.com
-users[admin][status] = 1
+users[guest1][uid] = 2
+users[guest1][name] = guest1
+users[guest1][mail] = guest1@oot_base.example.com
+users[guest1][status] = 1
 
-users[admin][uid] = 3
-users[admin][name] = guest2
-users[admin][mail] = guest2@oot_base.example.com
-users[admin][status] = 1
+users[guest2][uid] = 3
+users[guest2][name] = guest2
+users[guest2][mail] = guest2@oot_base.example.com
+users[guest2][status] = 1
 
-users[admin][uid] = 4
-users[admin][name] = guest3
-users[admin][mail] = guest3@oot_base.example.com
-users[admin][status] = 1
+users[guest3][uid] = 4
+users[guest3][name] = guest3
+users[guest3][mail] = guest3@oot_base.example.com
+users[guest3][status] = 1
 
 ;
 ; Variables
