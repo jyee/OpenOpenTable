@@ -56,6 +56,21 @@ users[admin][mail] = admin@oot_base.example.com
 users[admin][status] = 1
 users[admin][data][overlay] = 0
 
+users[admin][uid] = 2
+users[admin][name] = guest1
+users[admin][mail] = guest1@oot_base.example.com
+users[admin][status] = 1
+
+users[admin][uid] = 3
+users[admin][name] = guest2
+users[admin][mail] = guest2@oot_base.example.com
+users[admin][status] = 1
+
+users[admin][uid] = 4
+users[admin][name] = guest3
+users[admin][mail] = guest3@oot_base.example.com
+users[admin][status] = 1
+
 ;
 ; Variables
 ;
@@ -90,16 +105,16 @@ variables[pathauto_node_pattern] = ''
 ;
 ; Nodes
 ;
-;; About page.
-;nodes[about][type] = page
-;nodes[about][title] = About
-;nodes[about][body][und][0][value] = PLACEHOLDER
-;nodes[about][body][und][0][format] = full_html
-;nodes[about][uid] = 1
-;nodes[about][language] = und
-;nodes[about][menu][enabled] = 1
-;nodes[about][menu][link_title] = About
-;nodes[about][menu][menu_name] = main-menu
-;nodes[about][menu][weight] = 0
-;nodes[about][path][alias] = about
-;nodes[about][path][pathauto] = 0
+;; Home page.
+nodes[home][type] = page
+nodes[home][title] = Brewpal Pub & Grill
+nodes[home][body][und][0][value] = <p>Welcome to the brewpal pub and grill. We have beer, food and wifi!</p>
+nodes[home][body][und][0][format] = full_html
+nodes[home][uid] = 1
+nodes[home][language] = und
+nodes[home][menu][enabled] = 1
+nodes[home][menu][link_title] = Home
+nodes[home][menu][menu_name] = main-menu
+nodes[home][menu][weight] = 0
+nodes[home][path][alias] = home
+nodes[home][path][pathauto] = 0
