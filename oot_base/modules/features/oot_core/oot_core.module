@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the OpenOpenTable Core feature.
+ */
+
+include_once 'oot_core.features.inc';
