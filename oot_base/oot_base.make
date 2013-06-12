@@ -74,6 +74,24 @@ libraries[profiler][patch][] = "http://drupal.org/files/add_block_support-195590
 
 ; Project-specific modules, and overrides.
 
+; Calendar
+projects[calendar][version] = "3.4"
+
+; Date
+projects[date][version] = "2.6"
+
+; Entity API
+projects[entity][version] = "1.1"
+
+; Entity reference
+projects[entityreference][version] = "1.0"
+
+; Field group
+projects[field_group][version] = "1.1"
+
+; Field sync
+projects[field_sync][version] = "1.0-beta1"
+
 ; MERCI
 projects[merci][version] = "2.0"
 
