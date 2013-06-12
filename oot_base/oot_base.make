@@ -74,3 +74,13 @@ libraries[profiler][patch][] = "http://drupal.org/files/add_block_support-195590
 
 ; Project-specific modules, and overrides.
 
+; MERCI
+projects[merci][version] = "2.0"
+
+; Themes
+
+; AdaptiveTheme
+projects[adaptivetheme][version] = "3.1"
+; Corolla
+projects[corolla][version] = "3.0-rc1"
+

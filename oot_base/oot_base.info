@@ -2,9 +2,9 @@
 
 name = OpenOpenTable
 distribution_name = OpenOpenTable
-description = OpenOpenTable
+description = A Drupal version of OpenTable
 core = 7.x
-theme = bartik
+theme = corolla
 
 ; Core
 dependencies[] = block
