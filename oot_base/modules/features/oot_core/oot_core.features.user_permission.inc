@@ -128,6 +128,7 @@ function oot_core_user_default_permissions() {
     'name' => 'delete own chefs_table content',
     'roles' => array(
       'administrator' => 'administrator',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'node',
   );
@@ -204,6 +205,7 @@ function oot_core_user_default_permissions() {
     'name' => 'edit own chefs_table content',
     'roles' => array(
       'administrator' => 'administrator',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'node',
   );
@@ -253,6 +255,7 @@ function oot_core_user_default_permissions() {
     'name' => 'override max hours over closed days',
     'roles' => array(
       'administrator' => 'administrator',
+      'site editor' => 'site editor',
     ),
     'module' => 'merci',
   );
